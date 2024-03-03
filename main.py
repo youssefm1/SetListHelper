@@ -11,8 +11,8 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Spotify API credentials
-CLIENT_ID = '66de16268a47410b8b84c6b5d14ee977'
-CLIENT_SECRET = '7cdf2eb8970b4652b2b8d5b74b230747'
+CLIENT_ID = 'abc'
+CLIENT_SECRET = 'abc'
 REDIRECT_URI = 'http://localhost:5000/callback'  # Update with your redirect URI
 
 # Spotify API endpoints
